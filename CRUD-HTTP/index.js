@@ -56,7 +56,6 @@ const app = http.createServer(async (req, res) => {
 
   }
 
-
   if(req.method==="PUT"){
       const url=req.url.split("/")[1];
       const postId=req.url.split("/")[2];
